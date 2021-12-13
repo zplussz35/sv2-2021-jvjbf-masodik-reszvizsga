@@ -48,7 +48,7 @@ class HumanFileManagerTest {
     }
 
     @Test
-    void writeFileTest() throws IOException {
+    void writeFileTest() throws IOException{
         HumanFileManager hfm = new HumanFileManager();
         Path path = tempFolder.toPath().resolve("malehumans.csv");
 
